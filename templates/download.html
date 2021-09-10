@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+    <div><a href="{{ url_for('index') }}">Home</a></div><br><br>
+    <ul>
+        {% for i in lists %}
+        <li>
+            <a href="static/out/{{ i.name }}/{{ i.name }}.html" download>{{ i.name }}.html</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for j in lists %}
+        <li>
+            <a href="static/out/{{ j.name }}/{{ j.name }}.txt" download>{{ j.name }}.txt</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for h in lists %}
+        <li>
+            <a href="static/out/{{ h.name }}/{{ h.name }}.json" download>{{ h.name }}.json</a>
+        </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

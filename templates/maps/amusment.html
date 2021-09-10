@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c8313844536149a1a948a67911b2104b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c8313844536149a1a948a67911b2104b" ></div>
+        
+</body>
+<script>    
+    
+            var map_c8313844536149a1a948a67911b2104b = L.map(
+                "map_c8313844536149a1a948a67911b2104b",
+                {
+                    center: [51.4934, 0.0098],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aff4bad832094a03b8bb8ae19892fe99 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c8313844536149a1a948a67911b2104b);
+        
+    
+            var marker_1306e246f4d64ab2ab2cffffe3e54a57 = L.marker(
+                [28.37865556333042, -81.57082004907477],
+                {}
+            ).addTo(map_c8313844536149a1a948a67911b2104b);
+        
+    
+        var popup_93005e48986a48b58bd6371c2b40e511 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90afd99e27a4411ea8f0346d136d8c01 = $(`<div id="html_90afd99e27a4411ea8f0346d136d8c01" style="width: 100.0%; height: 100.0%;">Walt Disney World</div>`)[0];
+            popup_93005e48986a48b58bd6371c2b40e511.setContent(html_90afd99e27a4411ea8f0346d136d8c01);
+        
+
+        marker_1306e246f4d64ab2ab2cffffe3e54a57.bindPopup(popup_93005e48986a48b58bd6371c2b40e511)
+        ;
+
+        
+    
+    
+            var marker_1577828191274c77aa4d238535760928 = L.marker(
+                [33.81235029313614, -117.91901711797392],
+                {}
+            ).addTo(map_c8313844536149a1a948a67911b2104b);
+        
+    
+        var popup_be66ebd265e34fc38d43806f60c6843a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2838517ca27348e69a2c83e8b5fc785f = $(`<div id="html_2838517ca27348e69a2c83e8b5fc785f" style="width: 100.0%; height: 100.0%;">Disneyland</div>`)[0];
+            popup_be66ebd265e34fc38d43806f60c6843a.setContent(html_2838517ca27348e69a2c83e8b5fc785f);
+        
+
+        marker_1577828191274c77aa4d238535760928.bindPopup(popup_be66ebd265e34fc38d43806f60c6843a)
+        ;
+
+        
+    
+    
+            var marker_ac64d190bb894ce18d610ead66393051 = L.marker(
+                [33.14160204371715, -117.31427448312074],
+                {}
+            ).addTo(map_c8313844536149a1a948a67911b2104b);
+        
+    
+        var popup_0ca69ce201ae4e9b843676e350c7ad22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac79d0cd5c7943829606cfa585eeba5d = $(`<div id="html_ac79d0cd5c7943829606cfa585eeba5d" style="width: 100.0%; height: 100.0%;">Legoland California</div>`)[0];
+            popup_0ca69ce201ae4e9b843676e350c7ad22.setContent(html_ac79d0cd5c7943829606cfa585eeba5d);
+        
+
+        marker_ac64d190bb894ce18d610ead66393051.bindPopup(popup_0ca69ce201ae4e9b843676e350c7ad22)
+        ;
+
+        
+    
+    
+            var marker_e05b2ed4565644069b96c600f6caf97e = L.marker(
+                [27.989646753493368, -81.68902940656646],
+                {}
+            ).addTo(map_c8313844536149a1a948a67911b2104b);
+        
+    
+        var popup_c6f8e8bc3c3249379bec02777c4c48a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d788946a52a54e33a99cf66902071e97 = $(`<div id="html_d788946a52a54e33a99cf66902071e97" style="width: 100.0%; height: 100.0%;">Legoland Florida</div>`)[0];
+            popup_c6f8e8bc3c3249379bec02777c4c48a1.setContent(html_d788946a52a54e33a99cf66902071e97);
+        
+
+        marker_e05b2ed4565644069b96c600f6caf97e.bindPopup(popup_c6f8e8bc3c3249379bec02777c4c48a1)
+        ;
+
+        
+    
+    
+            var marker_e0d22b0fa8da47929599efd928212887 = L.marker(
+                [40.228799461806084, -74.3958869378811],
+                {}
+            ).addTo(map_c8313844536149a1a948a67911b2104b);
+        
+    
+        var popup_b4e724e9729747aa85830f4cc7fe1772 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6277c96afa3c48019bb1247a082a8e9c = $(`<div id="html_6277c96afa3c48019bb1247a082a8e9c" style="width: 100.0%; height: 100.0%;">Six Flags Great Adventure</div>`)[0];
+            popup_b4e724e9729747aa85830f4cc7fe1772.setContent(html_6277c96afa3c48019bb1247a082a8e9c);
+        
+
+        marker_e0d22b0fa8da47929599efd928212887.bindPopup(popup_b4e724e9729747aa85830f4cc7fe1772)
+        ;
+
+        
+    
+    
+            var marker_efa8e62e67204214be15cea4de631e24 = L.marker(
+                [42.13859470044925, -72.6088691950798],
+                {}
+            ).addTo(map_c8313844536149a1a948a67911b2104b);
+        
+    
+        var popup_bcffbb04c54f4398b8eca67ab3dfba24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c1a771c38e9483bbb59b2c6f5ef3e0c = $(`<div id="html_7c1a771c38e9483bbb59b2c6f5ef3e0c" style="width: 100.0%; height: 100.0%;">Six Flags New England</div>`)[0];
+            popup_bcffbb04c54f4398b8eca67ab3dfba24.setContent(html_7c1a771c38e9483bbb59b2c6f5ef3e0c);
+        
+
+        marker_efa8e62e67204214be15cea4de631e24.bindPopup(popup_bcffbb04c54f4398b8eca67ab3dfba24)
+        ;
+
+        
+    
+    
+            var marker_da977a79f88e4c54bfa47bd42daadecb = L.marker(
+                [35.84470199481776, -118.63339002732059],
+                {}
+            ).addTo(map_c8313844536149a1a948a67911b2104b);
+        
+    
+        var popup_86846a00cd9e49aaaf420106b8b79fda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e700d85b4a54f808811c5f4bc60dddf = $(`<div id="html_4e700d85b4a54f808811c5f4bc60dddf" style="width: 100.0%; height: 100.0%;">Six Flags Magic Mountain</div>`)[0];
+            popup_86846a00cd9e49aaaf420106b8b79fda.setContent(html_4e700d85b4a54f808811c5f4bc60dddf);
+        
+
+        marker_da977a79f88e4c54bfa47bd42daadecb.bindPopup(popup_86846a00cd9e49aaaf420106b8b79fda)
+        ;
+
+        
+    
+    
+            var marker_4a97303f96334082bd66ded4c8a88b3c = L.marker(
+                [40.96537493836658, -73.67503890982799],
+                {}
+            ).addTo(map_c8313844536149a1a948a67911b2104b);
+        
+    
+        var popup_cbb3be46ea424db8a2397b8fda39c861 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a2fbad9c62c469592042615d87989c5 = $(`<div id="html_9a2fbad9c62c469592042615d87989c5" style="width: 100.0%; height: 100.0%;">Rye Playland</div>`)[0];
+            popup_cbb3be46ea424db8a2397b8fda39c861.setContent(html_9a2fbad9c62c469592042615d87989c5);
+        
+
+        marker_4a97303f96334082bd66ded4c8a88b3c.bindPopup(popup_cbb3be46ea424db8a2397b8fda39c861)
+        ;
+
+        
+    
+</script>

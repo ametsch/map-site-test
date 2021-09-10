@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+    <a href="{{ url_for('index') }}">Home</a>
+</div>
+<br>
+<br>
+<form method="POST" action="{{ url_for('find') }}">
+    Pin Count: <input type="number" min="1" max="50" name="count">
+    <input type="submit" value="Go">
+</form>
+{% endblock %}

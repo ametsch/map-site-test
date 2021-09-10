@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+    <div><a href="{{ url_for('index') }}">Home</a></div><br><br>
+    <form action="{{ url_for('findMap') }}" method="POST">
+        {% for i in range(count) %}
+        <div>
+            Lat: <input type="text" name="lat{{ i }}" required>&nbsp;
+            Lon: <input type="text" name="lon{{ i }}" required>&nbsp;
+            Tag: <input type="text" name="tag{{ i }}" required>&nbsp;
+        </div>
+        {% endfor %}
+        <br>
+        <div>
+            <h4>Included List:</h4>
+            <div>None: <input type="radio" name="incList" value="none" required></div>
+            <div>Amusment: <input type="radio" name="incList" value="amusment" required></div>
+            <div>Mamkschools: <input type="radio" name="incList" value="mamkschools" required></div>
+            <div>Space: <input type="radio" name="incList" value="space" required></div>
+            <div>All: <input type="radio" name="incList" value="all" required></div>
+        </div>
+        <br>
+        <div><input type="submit" name="Submit"></div>
+    </form>
+{% endblock %}

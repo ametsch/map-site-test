@@ -1,0 +1,34 @@
+{
+  'summary': {
+    'queryTime': 5,
+    'numResults': 1
+  },
+  'addresses': [{
+    'address': {
+      'buildingNumber': '40',
+      'streetNumber': '40',
+      'routeNumbers': [],
+      'street': 'Byron Lane',
+      'streetName': 'Byron Lane',
+      'streetNameAndNumber': '40 Byron Lane',
+      'countryCode': 'US',
+      'countrySubdivision': 'NY',
+      'countrySecondarySubdivision': 'Westchester',
+      'municipality': 'Mamaroneck',
+      'postalCode': '10538',
+      'municipalitySubdivision': 'Town of Mamaroneck',
+      'country': 'United States',
+      'countryCodeISO3': 'USA',
+      'freeformAddress': '40 Byron Lane, Larchmont, NY 10538',
+      'boundingBox': {
+        'northEast': '40.942526,-73.757620',
+        'southWest': '40.939984,-73.761757',
+        'entity': 'position'
+      },
+      'extendedPostalCode': '10538-1618',
+      'countrySubdivisionName': 'New York',
+      'localName': 'Larchmont'
+    },
+    'position': '40.942516,-73.758568'
+  }]
+}

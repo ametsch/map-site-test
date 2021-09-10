@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    font-family: 'Source Code Pro', monospace;
+    font-size: x-large;
+    text-align: left;
+}
+ul{
+    list-style: circle;
+}
+a:hover{
+    color: purple;
+    text-decoration: none;
+    
+}
+a:active{
+    color: purple;
+    text-decoration: none;
+}
+a:link{
+    color: royalblue;
+}
+a:visited{
+    color: royalblue;
+}

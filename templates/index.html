@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<ul>
+    <li><a href="{{ url_for('space') }}">space</a></li>
+    <li><a href="{{ url_for('schools') }}">mamkschools</a></li>
+    <li><a href="{{ url_for('amusment') }}">amusment</a></li>
+    <li><a href="{{ url_for('findCount') }}">find</a></li>
+    <br>
+    <li><a href="{{ url_for('download') }}">Download</a></li>
+</ul>
+{% endblock %}

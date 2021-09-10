@@ -1,0 +1,53 @@
+{
+  'summary': {
+    'query': '40 byron lane larchmont ny',
+    'queryType': 'NON_NEAR',
+    'queryTime': 46,
+    'numResults': 1,
+    'offset': 0,
+    'totalResults': 2,
+    'fuzzyLevel': 1
+  },
+  'results': [{
+    'type': 'Point Address',
+    'id': 'US/PAD/p0/21995469',
+    'score': 9.9009103775,
+    'address': {
+      'streetNumber': '40',
+      'streetName': 'Byron Lane',
+      'municipalitySubdivision': 'Town of Mamaroneck',
+      'municipality': 'Mamaroneck',
+      'countrySecondarySubdivision': 'Westchester',
+      'countrySubdivision': 'NY',
+      'countrySubdivisionName': 'New York',
+      'postalCode': '10538',
+      'extendedPostalCode': '10538-1618',
+      'countryCode': 'US',
+      'country': 'United States',
+      'countryCodeISO3': 'USA',
+      'freeformAddress': '40 Byron Lane, Larchmont, NY 10538',
+      'localName': 'Larchmont'
+    },
+    'position': {
+      'lat': 40.94284,
+      'lon': -73.75869
+    },
+    'viewport': {
+      'topLeftPoint': {
+        'lat': 40.94374,
+        'lon': -73.75988
+      },
+      'btmRightPoint': {
+        'lat': 40.94194,
+        'lon': -73.7575
+      }
+    },
+    'entryPoints': [{
+      'type': 'main',
+      'position': {
+        'lat': 40.94252,
+        'lon': -73.75857
+      }
+    }]
+  }]
+}
